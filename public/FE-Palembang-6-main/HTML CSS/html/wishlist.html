@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scent Zone</title>
+
+    <!--my style-->
+    <link rel="stylesheet" href="css/wishlist.css" />
+    <!--Feather Icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar Start-->
+    <section id="header">
+      <a href="#"><img src="images/logo.png" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="wishlist.html">Wishlist</a></li>
+          <a href="account.html"><button class="normal">Login</button></a>
+        </ul>
+      </div>
+    </section>
+    <!--Navbar End-->
+
+    <!--Cart Start-->
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="images/Product/14.jpg" /></td>
+            <td>parfum</td>
+            <td>$13</td>
+            <td><input type="number"</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td><img src="images/Product/20.jpg" /></td>
+            <td>parfum</td>
+            <td>$13</td>
+            <td><input type="number"</td>
+            <td>456</td>
+          </tr>
+          <tr>
+            <td><img src="images/Product/2.jpg" /></td>
+            <td>parfum</td>
+            <td>$13</td>
+            <td><input type="number"</td>
+            <td>789</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer class="section-p1"></footer>
+    <!--Cart End-->
+
+    <!--cart start-->
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon">
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+      
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$15</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total<strong></td>
+            <td><strong>$15</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+      
+    </section>
+    <!--cart end-->
+
+    <!--footer Start-->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="images/logo.png">
+        <h4>Contact</h4>
+        <p><strong>Adress:</strong>Gedung Menara Rajawali, DKI JAKARTA</p>
+        <p><strong>Phone:</strong>0813-9910-0086</p>
+        <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Login</a>
+        <a href="#">My Wishlist</a>
+      </div>
+
+      <div class="copyright">
+        <p>2023 Scent Zone, All right reserved </p>
+      </div>
+    </footer>
+    <!--footer End-->
+
+    <!--My Javascript-->
+    <script src="js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "roboto slab", "rufina";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #febeff;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.form-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 2;
+  transition: transform 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  color: rgb(95, 94, 94);
+}
+
+.input-group {
+  position: relative;
+  margin: 30px 0;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: black;
+  padding: 0 5px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-group input {
+  width: 320px;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(95, 94, 94);
+  padding: 0 10px;
+  background: transparent;
+  border: 1px solid rgb(95, 94, 94);
+  outline: none;
+  border-radius: 10px;
+}
+
+.input-group i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+  top: 0;
+  font-size: 12px;
+  background: #fff;
+  color: rgb(95, 94, 94);
+}
+
+.input-group input:focus,
+.input-group input:valid {
+  border: 1px solid rgb(95, 94, 94);
+}
+
+.remember {
+  margin: -15px 0 15px;
+}
+
+.remember label {
+  accent-color: #ed2ffd;
+  font-size: 14px;
+}
+
+.remember label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.btn {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: #ed2ffd;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 5 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.profile {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile p a {
+  color: rgb(95, 94, 94);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.profile p a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scent Zone</title>
+
+    <!--Feather Icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--my style-->
+    <link rel="stylesheet" href="css/account.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-wrapper sign-in">
+        <form action="">
+          <h2>Login</h2>
+          <div class="input-group">
+            <input type="text" required />
+            <label for="">Username</label>
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-group">
+            <input type="password" required />
+            <label for="">Password</label>
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+
+          <div class="remember">
+            <label><input type="checkbox" /> Remember me </label>
+          </div>
+
+          <button type="submit" class="btn">Login</button>
+
+          <div class="sign-link">
+            <p>
+              Don't have an account?
+              <a href="#" class="signUp-link"> Sign Up </a>
+            </p>
+          </div>
+        </form>
+      </div>
+    
+    <div class="wrapper">
+      <div class="form-wrapper sign-up">
+        <form action="">
+          <h2>Sign Up</h2>
+          <div class="input-group">
+            <input type="text" required />
+            <label for="">Username</label>
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-group">
+            <input type="email" required />
+            <label for="">Email</label>
+            <i class="bx bxs-envelope"></i>
+          </div>
+          <div class="input-group">
+            <input type="password" required />
+            <label for="">Password</label>
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+
+          <div class="remember">
+            <label
+              ><input type="checkbox" /> I agree to the terms & conditions
+            </label>
+          </div>
+
+          <button type="submit" class="btn">Sign Up</button>
+
+          <div class="sign-link">
+            <p>
+              Already have an account?
+              <a href="#" class="signIn-link"> Sign In </a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--My Javascript-->
+    <script src="js/account.js"></script>
+  </body>
+</html>
